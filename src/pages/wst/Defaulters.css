@@ -1,0 +1,152 @@
+body {
+  background-color: aliceblue;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.headerTxt {
+  color: blue;
+}
+
+/* .card{
+    margin-bottom: 20px;
+} */
+
+.cardh5 {
+  background-color: rgb(26, 107, 222);
+  margin: 0;
+  color: white;
+  padding: 5px 0px 5px 20px;
+  font-size: 16px;
+}
+
+.cardContent {
+  width: 100%;
+  padding: 18px;
+  font-size: 14px;
+  /* display: inline-block; */
+}
+
+.resetBtn,
+.searchBtn {
+  background-color: rgb(38, 136, 242);
+  color: white;
+  border: none;
+  width: 150px;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resetBtn {
+  margin-right: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.detailsTable input {
+  width: 95%;
+  border: 1px solid rgb(168, 168, 168);
+  /* border-radius: 4px; */
+  height: 45px;
+  text-align: center;
+}
+
+/* .detailsTable th, .detailsTable td{
+    text-align: center;
+} */
+
+.wsrSub select {
+  width: 95%;
+  border: 1px solid rgb(168, 168, 168);
+  /* border-radius: 4px; */
+  height: 42px;
+}
+
+.dataTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 10px;
+}
+
+.dataTable th {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.pdShowEntry {
+  margin: 20px 20px 10px 20px;
+}
+
+.pdShowEntry p {
+  display: inline-block;
+  border: 2px solid cornflowerblue;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.pdfImg {
+  margin-right: 10px;
+}
+
+.pdSearchBtn {
+  float: right;
+}
+
+.pdSearchBtn input {
+  border-radius: 8px;
+  padding: 12px;
+  background-color: aliceblue;
+  border: 2px solid cornflowerblue;
+}
+
+.entrySelect select {
+  width: 65px;
+  border: 1px solid rgb(198, 198, 198);
+  background-color: rgb(239, 244, 248);
+}
+
+.footerTxt1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footerTxt2 {
+  float: right;
+  margin-right: 20px;
+}
+
+.avatarIcon,
+.calendarIcon {
+  position: relative;
+  bottom: 0px;
+  top: 32px;
+  left: 15px;
+}
+
+/* .statusField p{
+    border: 1px solid green;
+    width: 20px;
+    color: white;
+    border-radius: 4px;
+} */

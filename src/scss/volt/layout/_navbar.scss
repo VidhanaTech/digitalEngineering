@@ -1,0 +1,154 @@
+$gray-40: rgba(32, 32, 32, 0.4);
+$white: #ffffff;
+.nav {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: url("../../../assets/img/new-dashboard/white\ cloud.png")
+    no-repeat top center;
+  background-size: cover;
+  padding: 0 2rem;
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    &--logo {
+      width: 150px !important;
+      height: auto;
+    }
+    &--search {
+      padding: 6px 1rem;
+      border: 1px solid #cbcbcb;
+      border-radius: 4px;
+      &::placeholder {
+        font-weight: 700;
+        font-size: 14px;
+        color: #777777;
+      }
+    }
+    &--searchicon {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      color: #cbcbcb;
+      width: 12px;
+      height: 12px;
+    }
+    &--searchbox {
+      position: relative;
+    }
+    &--bars {
+      width: 25px;
+      height: 25px;
+      filter: brightness(0.5);
+    }
+  }
+  &__right {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    align-items: center;
+    & p {
+      margin: 0;
+    }
+    &--logname {
+      padding: 0 2rem;
+      border-left: 2px solid #c1c1c1;
+    }
+    &--flag {
+      width: 25px;
+      height: auto;
+      border-radius: 5px;
+    }
+    &--icon {
+      font-size: 24px;
+      color: #1475df;
+      width: 25px;
+      height: 25px;
+    }
+    &--welcome {
+      color: #b6b6b6;
+    }
+    &--notification {
+      position: relative;
+    }
+    &--notifynum {
+      position: absolute;
+      top: -5px;
+      background-color: #ef6e6e;
+      font-size: 8px;
+      font-weight: 700;
+      border-radius: 100%;
+      padding: 1px 4px;
+      color: $white;
+      left: 9px;
+      border: 2px solid $white;
+    }
+    &--chevron {
+      width: 16px;
+      height: 16px;
+    }
+    &--profile {
+      background-color: $white;
+      box-shadow: 2px 2px 8px $gray-40;
+      padding: 1rem;
+      border-radius: 10px;
+      position: absolute;
+      right: 30px;
+      top: 54px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    position: static;
+    padding: 0 1rem;
+    &__left {
+      &--bars {
+        position: absolute;
+        top: 13px;
+        left: 12px;
+      }
+      &--logo {
+        margin-left: 20%;
+        width: 135px !important;
+        height: auto;
+      }
+    }
+    &__right {
+      &--chevron {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 6px;
+        right: 12px;
+      }
+      &--logname {
+        display: none;
+      }
+      &--profile {
+        right: 8px;
+        top: 43px;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav {
+    grid-template-columns: 70% 30%;
+  }
+}

@@ -1,0 +1,136 @@
+.gvh {
+  color: black;
+}
+
+.mb3form {
+  width: 100%;
+}
+
+.formlblus {
+  width: 45%;
+}
+
+.formconus {
+  width: 55%;
+  display: inline;
+}
+
+.rodein {
+  margin: 7px 0 7px 0 !important;
+}
+
+.rmroldiv {
+  width: 98%;
+  margin: 0 auto;
+  border-bottom: 1px solid #c5cee0;
+  width: 100%;
+}
+
+.rmroldiv p {
+  display: inline;
+  font-weight: 900;
+  position: relative;
+  bottom: 12px;
+}
+
+.mdlclspop {
+  margin: 0px;
+  padding: 0px;
+}
+
+.rmroldiv button {
+  float: right !important;
+  /* color: #fff;
+    background-color: #0948b3;
+    border-color: #007bff;
+    border: 1px solid;
+    font-weight: 600;
+    padding: 9px;
+    text-align: center;
+    border-radius: 4px; */
+}
+
+.rmroldiv button:hover {
+  background-color: #0061c9;
+}
+
+.savecanBtn {
+  float: right;
+  margin-right: 12px;
+  left: 69% !important;
+}
+
+.btn-success,
+.btn-danger {
+  border-radius: 4px;
+  margin-right: 2px;
+}
+
+.crdformpd {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.detaiTable {
+  padding: 10px;
+  width: 98%;
+  margin: 0 auto 10px auto;
+  border: 1px solid #c5cee0 !important;
+}
+
+.detaiTable th {
+  background: #42aaff !important;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid #c5cee0 !important;
+}
+
+.detaiTable tr {
+  text-align: center;
+  border: 1px solid #c5cee0 !important;
+}
+
+.detaiTable td {
+  height: 40px;
+  border: 1px solid #c5cee0 !important;
+  font-size: 12px;
+  width: 27%;
+}
+
+.detaiTable tr:nth-child(odd) {
+  background-color: #f7f9fc;
+}
+
+.detaiTable .cedtab:hover {
+  background-color: #ddd;
+}
+
+.rmroldcb {
+  padding: 1rem !important;
+}
+
+.modal-content {
+  border: 0;
+  border-radius: 0.3rem;
+  background-color: inherit !important;
+  box-shadow: inherit !important;
+}
+
+.modal-dialog.usrCrd.card.modal-dialog-centered {
+  margin: 0px;
+}
+
+.casabtnPop {
+  position: relative;
+  left: 45% !important;
+  bottom: 20px;
+}
+
+.hiddenTable {
+  margin-top: 100px;
+}

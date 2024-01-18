@@ -1,0 +1,9 @@
+module.exports.authService = require('./auth.service');
+module.exports.userService = require('./user.service');
+module.exports.clientService = require('./client.service');
+module.exports.kmarticalService = require('./kmartical.service');
+module.exports.vxarticalService = require('./vxarticle.service');
+module.exports.lookupService = require('./lookup.service');
+module.exports.projectService = require('./project.service');
+module.exports.dashboardService = require('./dashboard.service');
+module.exports.masterService = require('./master.service');

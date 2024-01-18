@@ -1,0 +1,272 @@
+.clrBlack {
+  width: 150% !important;
+}
+
+#dx .maincontent__card--content-icon-orange {
+  z-index: 0;
+}
+
+#dx .maincontent__card--content-icon-red {
+  z-index: 0;
+}
+
+#dx .maincontent__card--content-icon-green {
+  z-index: 0;
+}
+
+#dx .maincontent__card--content-icon-blue {
+  z-index: 0;
+}
+
+.articlePopup {
+  background-color: #fff;
+  padding: 50px !important;
+  border-radius: 8px;
+  width: 134% !important;
+}
+
+.moveDownInput {
+  padding: 10px 12px !important;
+  width: 485px !important;
+}
+
+.moveDownBtn {
+  padding: 10px 0 !important;
+  width: 60px;
+  top: 0px;
+  right: -150px;
+}
+
+.commentCard {
+  box-shadow: none !important;
+}
+
+/* .commentCardBody{
+      background-color: #eeeeee;
+  } */
+
+.commentsList {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* border-bottom: 1px solid #d6d2d2; */
+}
+
+.closeIcon {
+  border-radius: 20px;
+  background-color: grey;
+  color: #fff;
+  height: 29px;
+  width: 30px !important;
+  padding: 4px;
+  float: right;
+}
+
+.scroll-container {
+  height: auto;
+  /* Set the desired height for the scrolling area */
+  overflow: auto;
+  /* Enable scrolling */
+}
+
+.commentor {
+  font-size: 12px;
+}
+
+.commentorProfile {
+  width: 35px;
+  height: 35px;
+}
+
+.dataToggleArea {
+  margin: 1rem 0;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* padding: 12px; */
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+  border-radius: 4px;
+}
+
+.dataToggleArea button.selected {
+  /* text-decoration: underline 2px solid blue; */
+  color: rgb(0, 136, 255);
+  font-weight: 900;
+}
+
+.authorTag {
+  /* display: flex;
+      margin: 10px; */
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
+  width: 48%;
+}
+
+.authorTag p {
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+}
+
+.authorSpan {
+  font-weight: 600;
+}
+
+.rightSpan p {
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+}
+
+.IconSpan {
+  margin: 10px 10px 10px 0px;
+}
+
+.IconSpan2 {
+  margin: 10px 0px 10px 0px;
+}
+
+.rightSpan {
+  display: inline-block;
+  width: 50%;
+  margin: 10px 0px 10px 10px;
+  text-align: end;
+  font-size: 15px;
+}
+
+.articleCardHead {
+  background-color: #1658a0 !important;
+  color: #fff;
+}
+
+.articleCards {
+  background-color: rgb(39 48 61);
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.authorButtons {
+  position: relative;
+  left: 310px;
+}
+
+.myArticleVM {
+  color: #1475df;
+  font-weight: 600 !important;
+  margin-top: 12px;
+  cursor: pointer;
+  text-align: end;
+}
+
+.newContri .cygFkb {
+  padding-right: 0px !important;
+}
+
+.accordion-button {
+  /* background-color: #1658a0 !important; */
+  color: #fff !important;
+  padding: 10px 20px 10px 20px !important;
+}
+
+#KMArtiAccordion .accordion-button {
+  padding: 17px 20px 17px 10px !important;
+}
+
+.accordion-item {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.accordion-button::after {
+  color: #fff !important;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.accordion-button.collapsed::after {
+  color: #fff !important;
+}
+
+#dx .maincontent__card--content-woheader {
+  min-height: 0px !important;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  color: #fff !important;
+  } */
+
+.ArticleDesc {
+  width: fit-content;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.error-message {
+  color: red;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+#myArticleStatus {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sortBy {
+  float: right;
+}
+
+.sort-options {
+  margin-bottom: 1rem;
+}
+
+.kmArtiImgCard {
+  width: 50%;
+  display: inline-flex;
+}
+
+.searchForArti {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.search-containerKMArti {
+  width: 80%;
+}
+
+.sort-optionsKMArti {
+  width: 20%;
+}
+
+.searchArtiInput {
+  padding: 12px;
+  width: 60%;
+  border-radius: 12px;
+}
+
+.searchIconKMA {
+  /* border: 2px solid blue; */
+  display: inline-block;
+  padding: 9px;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* height: 100%; */
+  position: relative;
+  right: 40px;
+}
+
+.resetBtnKMA {
+  background-color: #1658a0;
+  color: #fff;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}

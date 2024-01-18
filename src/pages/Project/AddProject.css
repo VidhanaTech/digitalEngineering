@@ -1,0 +1,30 @@
+.date-input-wrapper {
+    position: relative;
+  }
+  
+  .date-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #aaa;
+  }
+  
+  .date-input-wrapper input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .btn-sm-small {
+    padding: 0.25rem 0.15rem;
+    font-size: 0.85rem;
+    line-height: 1.1;
+    border-radius: 0.2rem;
+  }
+  
+  

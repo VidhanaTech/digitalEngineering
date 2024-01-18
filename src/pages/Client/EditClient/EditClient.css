@@ -1,0 +1,13 @@
+.dropicon {
+  height: 10px;
+  width: 10px;
+}
+input[type="text"] {
+  font-size: 15px;
+}
+input[type="date"] {
+  font-size: 15px;
+}
+.text-danger{
+  font-size: 12px;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="21.5" viewBox="0 0 19.5 21.5">
+  <g id="Calendar" transform="translate(0.75 0.75)">
+    <path id="Path" d="M0,.5H17.824" transform="translate(0.093 6.904)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-2" data-name="Path" d="M.5.5H.5" transform="translate(12.947 10.81)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-3" data-name="Path" d="M.5.5H.5" transform="translate(8.509 10.81)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-4" data-name="Path" d="M.5.5H.5" transform="translate(4.063 10.81)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-5" data-name="Path" d="M.5.5H.5" transform="translate(12.947 14.696)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-6" data-name="Path" d="M.5.5H.5" transform="translate(8.509 14.696)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-7" data-name="Path" d="M.5.5H.5" transform="translate(4.063 14.696)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-8" data-name="Path" d="M.5,0V3.291" transform="translate(12.544)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-9" data-name="Path" d="M.5,0V3.291" transform="translate(4.465)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path-10" data-name="Path" d="M13.238,0H4.771C1.834,0,0,1.636,0,4.643v9.05c0,3.054,1.834,4.728,4.771,4.728h8.458c2.946,0,4.771-1.645,4.771-4.653V4.643C18.009,1.636,16.184,0,13.238,0Z" transform="translate(0 1.579)" fill="none" stroke="#a9b5e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

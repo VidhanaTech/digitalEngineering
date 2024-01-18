@@ -1,0 +1,12 @@
+.entrySelect select {
+  width: 65px;
+  border: 1px solid rgb(198, 198, 198);
+  background-color: rgb(96, 100, 103);
+}
+.entries {
+  background-color: rgb(133, 135, 137);
+}
+
+.lookup-play-icon {
+  margin-right: 0.5rem;
+}

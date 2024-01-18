@@ -1,0 +1,63 @@
+.chckbx {
+  position: relative !important;
+  left: 28% !important;
+}
+
+input.form-check-input {
+  width: 17px;
+  height: 17px;
+}
+
+.Cctenx {
+  font-size: 12px !important;
+  padding: 20px 10px 10px 10px !important;
+}
+
+.mb3f {
+  margin-top: 25px;
+}
+
+.rstpwdBtn {
+  color: #fff;
+  background-color: #0948b3;
+  border-color: #007bff;
+  border: 1px solid;
+  display: inline-block;
+  font-weight: 600;
+  padding: 9px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.rstpwdBtn:hover {
+  background-color: #0061c9;
+}
+
+.tableBottomBtn{
+  float: right;
+  margin-top: 10px;
+}
+
+.addspacemore{
+  margin-bottom: 40px;
+}
+
+.inputContainer input{
+  border: 1px solid #ced4da;
+  padding: 15px;
+  border-radius: 4px;
+  height: 2rem;
+  width: 20rem;
+  margin-right: 5px;
+}
+
+.inputContainer{
+  margin-top: 20px;
+}
+
+.midpop{
+  width: 100% !important;
+  margin: 0 auto !important;
+}

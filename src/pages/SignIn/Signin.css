@@ -1,0 +1,302 @@
+body {
+  background-color: rgba(255, 255, 255, 1) !important;
+  height: 100%;
+}
+
+.Main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin-bg {
+  background-image: url(../../assets/img/new_design/signin-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.leftBox {
+  background-image: url(../../assets/img/new_design/signin_banner.jpg);
+  background-repeat: no-repeat;
+  flex: 45%;
+  background-size: cover;
+  background-color: white;
+}
+
+.leftBox a {
+  margin-left: 0.5rem;
+}
+
+/* .rightBox {
+  flex: 55%;
+  align-items: center;
+  background-color: white;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+} */
+
+.leftImg {
+  background-size: contain;
+  background-image: url(../../assets/img/SignupBG.png);
+  width: 100%;
+}
+
+.gethelpText {
+  position: fixed;
+  bottom: 5%;
+  font-size: 15px;
+  left: 4%;
+  font-weight: 800;
+  color: white;
+}
+
+.gethelpText a {
+  text-decoration: underline;
+  color: white;
+}
+
+.newUser {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  font-weight: 600;
+  color: #202020;
+  font-size: 14px;
+  width: 100%;
+}
+
+.newUser a {
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.mainContainer {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  margin: 0 auto;
+
+  /* display: flex;
+    width: 80%;
+    margin: 0 auto; */
+}
+
+.Containerr {
+  width: 60%;
+}
+
+.headTitle {
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.ssoBtnSection {
+  margin: 0.5rem;
+}
+
+.ssoBtn {
+  background-color: #989898;
+  border-radius: 12px;
+  border: none;
+  padding: 0.7rem 1rem !important;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+
+.ssoBtn span {
+  margin-bottom: 0.5rem;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* .fbBtn{
+    background-color: white;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 8px;
+    padding: 14px;
+    width: 12%;
+} */
+
+.signinBtn {
+  background-color: rgb(5, 8, 74);
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px !important;
+  width: 120px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* .signinBtn:disabled {
+  cursor: not-allowed;
+} */
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.separator h2 {
+  padding: 0 2rem;
+  /* creates the space */
+}
+
+.separator .line {
+  flex: 1;
+  height: 1px;
+  background-color: #d7daddad;
+  border-radius: 2px;
+}
+
+.lineText {
+  margin: 1rem;
+  color: #8f8c94;
+}
+
+.midSection input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #d7daddad;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.midSection label {
+  padding: 5px 0 5px 15px;
+  /* background: rgba(255, 255, 255, 1);
+  position: absolute; */
+  color: #84818a;
+  font-size: 16px;
+}
+
+.input-success {
+  border: 2px solid #009580 !important;
+}
+
+.input-error {
+  border: 2px solid red !important;
+}
+
+.downSection {
+  color: #505050;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+.downSection a {
+  color: #47464a;
+  font-size: 14px;
+}
+/* 
+.footerText {
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+}
+
+footer {
+  margin-left: 28%;
+  margin-top: 0% !important;
+  margin-bottom: 4%;
+  width: 45%;
+}
+
+footer a {
+  color: rgb(133 105 163);
+  font-weight: bolder;
+  text-decoration: none;
+} */
+
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
+}
+
+@media (min-width: 480px) and (max-width: 980px) {
+  .Main {
+    height: 100%;
+  }
+
+  .leftBox {
+    display: none;
+  }
+
+  .rightBox {
+    width: 100%;
+    max-height: unset;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  footer {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .Main {
+    height: 100%;
+  }
+
+  .mainContainer {
+    width: 100%;
+  }
+
+  .googleBtn {
+    width: 75%;
+  }
+
+  .fbBtn {
+    width: 18%;
+  }
+
+  .leftBox {
+    display: none;
+  }
+
+  .rightBox {
+    width: 100%;
+    max-height: unset;
+  }
+
+  .container {
+    margin-top: 14%;
+    padding: 0px 40px;
+  }
+
+  footer {
+    margin-top: 5%;
+  }
+}
+
+/* .errorsignin {
+  position: absolute;
+  margin-top: 4px;
+} */
+
+.errorsignin p {
+  color: red;
+  font-size: medium;
+}
